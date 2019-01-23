@@ -12,6 +12,6 @@ set data=%d%
 Echo zipping...
 
 "C:\Program Files\7-Zip\7z.exe" a -tzip "D:\ftp data\Archive db\eapro_erp_stage_%d%%now%.7z" "D:\ftp data\db_backup\eapro_erp_stage_%d%100PM.BAK"
-C:\Program Files\7-Zip\7z.exe" a -tzip "D:\ftp data\Archive db\eapro_erp_stage_%d%%now%.7z" "D:\ftp data\db_backup\eapro_erp_stage_%d%630PM.BAK"
+"C:\Program Files\7-Zip\7z.exe" a -tzip "D:\ftp data\Archive db\eapro_erp_stage_%d%%now%.7z" "D:\ftp data\db_backup\eapro_erp_stage_%d%630PM.BAK"
 
 echo Done!
